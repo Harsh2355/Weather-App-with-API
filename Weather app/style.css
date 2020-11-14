@@ -1,0 +1,168 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251 !important;
+}
+
+/* HOME PAGE */
+.city-input input{
+    width:70%;
+    padding:10px 20px;
+    font-size:20px;
+    position: absolute;
+    top:270px;
+    left:7%;
+    border-radius:10px
+}
+
+#search{
+    text-align:center;
+    width:10%;
+    padding:10px 7px;
+    font-size: 16px;
+    background-color:#e62e00;
+    border-radius:4px;
+    cursor:pointer;
+    position: absolute;
+    top:275px;
+    left:83%;
+}
+
+#search:hover{
+    font-size : 18px;
+}
+
+
+/* WEATHER DISPLAY */
+.back{
+    text-align:center;
+    width:10%;
+    padding:10px 7px;
+    font-size: 16px;
+    background-color:#e62e00;
+    border-radius:4px;
+    cursor:pointer;
+    position: absolute;
+    top:15px;
+    left:5%;
+    display:none;
+}
+
+.back:hover{
+    font-size : 18px;
+}
+
+.container{
+    width: 700px;    
+    background-color: #FFF;
+    display: block;
+    margin: 120px auto;
+    border-radius: 10px;
+    padding-bottom : 50px;
+    display: none;
+}
+
+.app-title{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 3.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: em;
+    margin: 25px 0px 0px 0px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    position: relative;
+    top:30px;
+    width: 700px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 350px;
+    height: 300px;
+}
+
+.weather-icon img{
+    position: absolute;
+    top:40px;
+    left:10%;
+    width:150px;
+    display: block;
+    margin: 0px auto 0 auto;
+}
+
+.temperature-value{
+    position: absolute;
+    top:30px;
+    left:50%;
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 6em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temp-disc-container{
+    width:350px;
+    position: absolute;
+    top:130px;
+    left:330px;
+}
+
+.temperature-description p{
+    text-align:center;
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 2em;
+}
+
+.location-container{
+    width:350px;
+    position: absolute;
+    top:190px;
+    left:330px;   
+}
+
+.location p{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1em;
+}

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/Rimouski.css">
+</head>
+<body>
+    <!-- HOME PAGE -->
+    <div class="city-input">
+        <form onsubmit= "event.preventDefault()">
+            <input type="text" name="city" id="#city" placeholder="Enter name of city...">
+            <div id="search">
+                Search
+            </div>
+        </form>
+    </div>
+
+    <!-- WEATHER DISPLAY -->
+    <div class="container">
+
+        <div class="app-title">
+            <p>WEATHER</p>
+        </div>
+
+        <div class="notification">
+
+        </div>
+
+        <div class="weather-container">
+
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="UNKNOWN">
+            </div>
+
+            <div class="temperature-value">
+                <p> -&deg;<span>C</span> </p>
+            </div>
+
+            <div class="temp-disc-container">
+                <div class="temperature-description">
+                   <p>-</p>
+                </div>
+            </div>
+
+            <div class="location-container">
+                <div class="location">
+                    <p>-</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="back">
+        Back
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
